@@ -1,0 +1,12 @@
+<configs>
+	
+	<append xpath="/buffs">
+
+		<buff name="buffmodGazzMufflerIcon" icon="ui_game_symbol_muffler">
+			<display_value_key value="Gazz Muffler"/> <display_value value="xxx"/>
+			<stack_type value="replace"/>
+			<duration value="1"/>
+		</buff>
+	</append>
+	
+</configs>
