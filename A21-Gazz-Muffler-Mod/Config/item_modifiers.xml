@@ -1,0 +1,24 @@
+<configs>
+
+<append xpath="/item_modifiers">
+
+	<item_modifier name="modGazzMuffler" installable_tags="armorHead" modifier_tags="muffler" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modGazzMuffler"/>
+		<property name="Material" value="Msteel"/>
+		<property name="Group" value="Mods,Tool/Weapon Mods,Tools/Traps"/>
+		<property name="EconomicValue" value="10"/>
+		
+			<effect_group>
+				<triggered_effect trigger="onSelfRangedBurstShotStart" action="SetAudioMixerState" state="Deafened" enabled="true"/>
+				<triggered_effect trigger="onSelfRangedBurstShotStart" action="AddBuff" buff="buffmodGazzMufflerIcon"/>
+					<requirement name="HoldingItemHasTags" tags="motorTool"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetAudioMixerState" state="Deafened" enabled="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffmodGazzMufflerIcon"/>
+				</triggered_effect>					
+			</effect_group>
+	</item_modifier>
+	
+</append>
+
+</configs>

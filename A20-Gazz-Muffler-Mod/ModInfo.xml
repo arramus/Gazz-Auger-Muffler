@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Gazz-Auger-Muffler"/>
-		<Description value="Shhhh!"/>
+		<Name value="A20-Gazz-Muffler-Mod"/>
+		<Description value="Auger and Chainsaw Shhhh! Mod"/>
 		<Author value="Gazz, with arramus update"/>
 		<Version value="A20"/>
 	</ModInfo>

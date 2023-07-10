@@ -1,0 +1,5 @@
+<configs>
+
+	<append xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='Tags']/@value">,motorToolAuger</append> <!-- Quiet Auger Tag -->	
+	
+</configs>
